@@ -17,4 +17,4 @@ theDF$x[3]
 # Editing names
 names(theDF)<-c("Popularity", "Team Strength", "Sport")
 View(theDF)
-cat("The mean of Team Strength is", mean(y))
+cat("The mean of Team Strength is", mean(theDF$`Team Strength`))
